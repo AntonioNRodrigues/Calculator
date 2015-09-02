@@ -1,0 +1,21 @@
+----------------------------------------
+- teste dos varios operadores
+4 2 + .
+4 2 - .
+4 2 * .
+4 2 % .
+4 2 / . 
+----------------------------------------
+- uma expressao mais complicada:
+1 2 3 4 5 6 7 8 9 + * - + % % + + .
+----------------------------------------
+- a variavel x e' inicializada ao valor 10
+10 @x
+- imprimir x * x (de duas formas diferentes)
+x x * .
+x dup * .
+----------------------------------------
+- teste das restantes instrucoes
+12345 4000 swap 0 200 - dup
+. . . 
+100 + . 100 200 drop .
