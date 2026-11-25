@@ -35,7 +35,7 @@ public class StackRandomTest {
     }
 
     private Integer newNonNullObject() {
-        return new Integer(rand.nextInt(MAX_INTEGER));
+        return Integer.valueOf(rand.nextInt(MAX_INTEGER));
     }
 
     public void run() {
