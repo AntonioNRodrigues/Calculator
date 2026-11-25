@@ -28,4 +28,9 @@ public interface Stack<E> {
 	 */
 	public abstract boolean isEmpty();
 
+	/**
+	 * @returns The number of elements in the Stack.
+	 */
+	public abstract int size();
+
 }

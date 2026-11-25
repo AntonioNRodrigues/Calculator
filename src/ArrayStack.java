@@ -47,7 +47,8 @@ public class ArrayStack<E> implements Cloneable, Stack<E> {
 
 	/* The number of elements in the stack
 	 */
-	private int size () {
+	@Override
+	public int size () {
 		return top + 1;
 	}
 	
